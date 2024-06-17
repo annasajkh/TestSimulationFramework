@@ -3,8 +3,7 @@ using SimulationFramework.Drawing;
 using SimulationFramework.Input;
 using System.Numerics;
 
-
-namespace TestSimulationFramework.Core;
+namespace TestSimulationFramework.Scripts.Core;
 
 public class Application : Simulation
 {

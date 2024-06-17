@@ -1,8 +1,8 @@
 ﻿using SimulationFramework;
 using SimulationFramework.Desktop;
-using Application = TestSimulationFramework.Core.Application;
+using Application = TestSimulationFramework.Scripts.Core.Application;
 
-namespace TestSimulationFramework
+namespace TestSimulationFramework.Scripts
 {
     static class Program
     {

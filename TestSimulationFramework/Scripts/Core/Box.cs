@@ -2,7 +2,7 @@
 using SimulationFramework.Drawing;
 using System.Numerics;
 
-namespace TestSimulationFramework.Core;
+namespace TestSimulationFramework.Scripts.Core;
 
 public class Box
 {
@@ -16,7 +16,7 @@ public class Box
     {
         color = new Color(Application.random.NextSingle(), Application.random.NextSingle(), Application.random.NextSingle(), 1);
         position = new Vector2(Application.random.NextSingle() * Window.Width, Application.random.NextSingle() * Window.Height);
-        velocity = new Vector2(Application.random.NextSingle() * 2 - 1, Application.random.NextSingle() * 2 - 1).Normalized() * (100 +  Application.random.NextSingle() * 200);
+        velocity = new Vector2(Application.random.NextSingle() * 2 - 1, Application.random.NextSingle() * 2 - 1).Normalized() * (100 + Application.random.NextSingle() * 200);
     }
 
     public void Update()
