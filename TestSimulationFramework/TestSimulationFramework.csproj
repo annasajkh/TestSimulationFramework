@@ -2,14 +2,18 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+	
   <ItemGroup>
-    <PackageReference Include="SimulationFramework" Version="0.2.0" />
-    <PackageReference Include="SimulationFramework.Desktop" Version="0.2.0" />
+    <PackageReference Include="SimulationFramework" Version="0.2.1" />
+    <PackageReference Include="SimulationFramework.Desktop" Version="0.2.1" />
   </ItemGroup>
 
 	<ItemGroup>

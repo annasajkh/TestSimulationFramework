@@ -2,13 +2,12 @@
 using SimulationFramework.Desktop;
 using Application = TestSimulationFramework.Scripts.Core.Application;
 
-namespace TestSimulationFramework.Scripts
+namespace TestSimulationFramework;
+
+static class Program
 {
-    static class Program
+    static void Main()
     {
-        static void Main()
-        {
-            Simulation.Start<Application>(new DesktopPlatform());
-        }
+        Simulation.Start<Application>(new DesktopPlatform());
     }
 }
